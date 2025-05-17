@@ -40,6 +40,7 @@ jobs:
       - name: Checkout the "hidden" branch
         uses: actions/checkout@v4
         with:
+          repository: Loyalsoldier/clash-rules
           ref: hidden
 
       - name: Generate icloud.txt file

@@ -30,6 +30,12 @@ jobs:
           echo "lan_cidr=https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/private.txt" >> $GITHUB_ENV
           echo "telegram_cidr=https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/telegram.txt" >> $GITHUB_ENV
         shell: bash
+ 
+      - name: Install mihomo
+        run: |
+          version=$(curl -sL https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt)
+          curl -sL "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-linux-amd64-${version}.gz" | \
+            gunzip -c > /usr/local/bin/mihomo && chmod +x /usr/local/bin/mihomo
 
       - name: Checkout the "hidden" branch
         uses: actions/checkout@v4
@@ -108,6 +114,28 @@ jobs:
         run: |
           mkdir -p publish
           cp *.txt ./publish/
+ 
+      - name: Convert YAML to MRS
+        run: |
+          SOURCE_DIR="./publish"
+
+          # 遍历指定目录下的所有txt文件（包括子目录）
+          find "$SOURCE_DIR" -type f -name "*.txt" | while read txt_file; do
+            # 获取文件名（不带扩展名）
+            base_name=$(basename "$txt_file" .txt)
+          
+            # 获取文件所在目录
+            dir_name=$(dirname "$txt_file")
+          
+            # 构造输出的mrs文件路径（与源文件同目录）
+            mrs_file="$dir_name/$base_name.mrs"
+          
+            # 执行转换命令
+            mihomo convert-ruleset domain yaml "$txt_file" "$mrs_file"
+          
+            # 输出转换结果
+            echo "Converted $txt_file to $mrs_file"
+          done
 
       - name: Release and upload assets
         uses: softprops/action-gh-release@v2

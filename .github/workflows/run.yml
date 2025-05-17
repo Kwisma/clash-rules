@@ -116,27 +116,33 @@ jobs:
           mkdir -p publish
           cp *.txt ./publish/
  
-      - name: Convert YAML to MRS
+      - name: Rename .txt files to .yaml in the publish directory
         run: |
+          # 指定目录
           SOURCE_DIR="./publish"
 
-          # 遍历指定目录下的所有txt文件（包括子目录）
+          # 遍历指定目录下的所有 .txt 文件并将它们重命名为 .yaml
           find "$SOURCE_DIR" -type f -name "*.txt" | while read txt_file; do
-            # 获取文件名（不带扩展名）
-            base_name=$(basename "$txt_file" .txt)
-          
-            # 获取文件所在目录
-            dir_name=$(dirname "$txt_file")
-          
-            # 构造输出的mrs文件路径（与源文件同目录）
-            mrs_file="$dir_name/$base_name.mrs"
-          
-            # 执行转换命令
-            mihomo convert-ruleset domain yaml "$txt_file" "$mrs_file"
-          
-            # 输出转换结果
-            echo "Converted $txt_file to $mrs_file"
+            yaml_file="${txt_file%.txt}.yaml"  # 替换扩展名为 .yaml
+            mv "$txt_file" "$yaml_file"  # 重命名文件
+            echo "Renamed $txt_file to $yaml_file"
           done
+
+      - name: Convert YAML to MRS
+        run: |
+          mihomo convert-ruleset domain yaml publish/apple.yaml publish/apple.mrs
+          mihomo convert-ruleset ipcidr yaml publish/cncidr.yaml publish/cncidr.mrs
+          mihomo convert-ruleset domain yaml publish/direct.yaml publish/direct.mrs
+          mihomo convert-ruleset domain yaml publish/gfw.yaml publish/gfw.mrs
+          mihomo convert-ruleset domain yaml publish/google.yaml publish/google.mrs
+          mihomo convert-ruleset domain yaml publish/greatfire.yaml publish/greatfire.mrs
+          mihomo convert-ruleset domain yaml publish/icloud.yaml publish/icloud.mrs
+          mihomo convert-ruleset ipcidr yaml publish/lancidr.yaml publish/lancidr.mrs
+          mihomo convert-ruleset domain yaml publish/private.yaml publish/private.mrs
+          mihomo convert-ruleset domain yaml publish/proxy.yaml publish/proxy.mrs
+          mihomo convert-ruleset domain yaml publish/reject.yaml publish/reject.mrs
+          mihomo convert-ruleset ipcidr yaml publish/telegramcidr.yaml publish/telegramcidr.mrs
+          mihomo convert-ruleset domain yaml publish/tld-not-cn.yaml publish/tld-not-cn.mrs
 
       - name: Release and upload assets
         uses: softprops/action-gh-release@v2

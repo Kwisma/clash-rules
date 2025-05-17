@@ -82,84 +82,84 @@ rule-providers:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.mrs"
-    path: ./ruleset/reject.yaml
+    path: ./ruleset/reject.mrs
     interval: 86400
 
   icloud:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.mrs"
-    path: ./ruleset/icloud.yaml
+    path: ./ruleset/icloud.mrs
     interval: 86400
 
   apple:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.mrs"
-    path: ./ruleset/apple.yaml
+    path: ./ruleset/apple.mrs
     interval: 86400
 
   google:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.mrs"
-    path: ./ruleset/google.yaml
+    path: ./ruleset/google.mrs
     interval: 86400
 
   proxy:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.mrs"
-    path: ./ruleset/proxy.yaml
+    path: ./ruleset/proxy.mrs
     interval: 86400
 
   direct:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.mrs"
-    path: ./ruleset/direct.yaml
+    path: ./ruleset/direct.mrs
     interval: 86400
 
   private:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.mrs"
-    path: ./ruleset/private.yaml
+    path: ./ruleset/private.mrs
     interval: 86400
 
   gfw:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.mrs"
-    path: ./ruleset/gfw.yaml
+    path: ./ruleset/gfw.mrs
     interval: 86400
 
   tld-not-cn:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.mrs"
-    path: ./ruleset/tld-not-cn.yaml
+    path: ./ruleset/tld-not-cn.mrs
     interval: 86400
 
   telegramcidr:
     type: http
     behavior: ipcidr
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.mrs"
-    path: ./ruleset/telegramcidr.yaml
+    path: ./ruleset/telegramcidr.mrs
     interval: 86400
 
   cncidr:
     type: http
     behavior: ipcidr
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.mrs"
-    path: ./ruleset/cncidr.yaml
+    path: ./ruleset/cncidr.mrs
     interval: 86400
 
   lancidr:
     type: http
     behavior: ipcidr
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.mrs"
-    path: ./ruleset/lancidr.yaml
+    path: ./ruleset/lancidr.mrs
     interval: 86400
 
   applications:

@@ -31,44 +31,44 @@
 > 如果无法访问域名 `raw.githubusercontent.com`，可以使用第二个地址（`cdn.jsdelivr.net`），但是内容更新会有 12 小时的延迟。以下地址填写在 Clash 配置文件里的 `rule-providers` 里的 `url` 配置项中。
 
 - **直连域名列表 direct.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/direct.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/direct.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/direct.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/direct.mrs)
 - **代理域名列表 proxy.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/proxy.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/proxy.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/proxy.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/proxy.mrs)
 - **广告域名列表 reject.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/reject.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/reject.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/reject.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/reject.mrs)
 - **私有网络专用域名列表 private.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/private.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/private.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/private.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/private.mrs)
 - **Apple 在中国大陆可直连的域名列表 apple.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/apple.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/apple.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/apple.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/apple.mrs)
 - **iCloud 域名列表 icloud.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/icloud.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/icloud.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/icloud.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/icloud.mrs)
 - **[慎用]Google 在中国大陆可直连的域名列表 google.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/google.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/google.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/google.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/google.mrs)
 - **GFWList 域名列表 gfw.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/gfw.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/gfw.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/gfw.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/gfw.mrs)
 - **非中国大陆使用的顶级域名列表 tld-not-cn.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/tld-not-cn.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/tld-not-cn.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/tld-not-cn.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/tld-not-cn.mrs)
 - **Telegram 使用的 IP 地址列表 telegramcidr.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/telegramcidr.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/telegramcidr.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/telegramcidr.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/telegramcidr.mrs)
 - **局域网 IP 及保留 IP 地址列表 lancidr.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/lancidr.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/lancidr.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/lancidr.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/lancidr.mrs)
 - **中国大陆 IP 地址列表 cncidr.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.mrs)
-- **需要直连的常见软件列表 applications.mrs**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.mrs](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.mrs)
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/cncidr.mrs](https://raw.githubusercontent.com/Kwisma/clash-rules/release/cncidr.mrs)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/cncidr.mrs](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/cncidr.mrs)
+- **需要直连的常见软件列表 applications.yaml**：
+  - [https://raw.githubusercontent.com/Kwisma/clash-rules/release/applications.yaml](https://raw.githubusercontent.com/Kwisma/clash-rules/release/applications.yaml)
+  - [https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/applications.yaml](https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/applications.yaml)
 
 ### 使用方式
 
@@ -81,91 +81,91 @@ rule-providers:
   reject:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/reject.mrs"
     path: ./ruleset/reject.mrs
     interval: 86400
 
   icloud:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/icloud.mrs"
     path: ./ruleset/icloud.mrs
     interval: 86400
 
   apple:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/apple.mrs"
     path: ./ruleset/apple.mrs
     interval: 86400
 
   google:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/google.mrs"
     path: ./ruleset/google.mrs
     interval: 86400
 
   proxy:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/proxy.mrs"
     path: ./ruleset/proxy.mrs
     interval: 86400
 
   direct:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/direct.mrs"
     path: ./ruleset/direct.mrs
     interval: 86400
 
   private:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/private.mrs"
     path: ./ruleset/private.mrs
     interval: 86400
 
   gfw:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/gfw.mrs"
     path: ./ruleset/gfw.mrs
     interval: 86400
 
   tld-not-cn:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/tld-not-cn.mrs"
     path: ./ruleset/tld-not-cn.mrs
     interval: 86400
 
   telegramcidr:
     type: http
     behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/telegramcidr.mrs"
     path: ./ruleset/telegramcidr.mrs
     interval: 86400
 
   cncidr:
     type: http
     behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/cncidr.mrs"
     path: ./ruleset/cncidr.mrs
     interval: 86400
 
   lancidr:
     type: http
     behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.mrs"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/lancidr.mrs"
     path: ./ruleset/lancidr.mrs
     interval: 86400
 
   applications:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.yaml"
+    url: "https://cdn.jsdelivr.net/gh/Kwisma/clash-rules@release/applications.yaml"
     path: ./ruleset/applications.yaml
     interval: 86400
 ```
